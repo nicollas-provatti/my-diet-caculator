@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>My diet caculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Calculadora de Dieta</h1>
+
+    <label>Alimento:</label>
+    <select id="alimento"></select>
+
+    <label>Quantidade (g ou unidade):</label>
+    <input type="number" id="quantidade" value="" />
+
+    <button onclick="adicionarAlimento()">Adicionar</button>
+    <button onclick="adicionarDivisao()">Adicionar refeição</button>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Alimento</th>
+          <th>Qtd (editável)</th>
+          <th>Kcal</th>
+          <th>Proteína</th>
+          <th>Gordura</th>
+          <th>Carbo</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="tabela"></tbody>
+    </table>
+
+    <div class="totais" id="totais"></div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>

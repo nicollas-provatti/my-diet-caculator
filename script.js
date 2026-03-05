@@ -73,6 +73,14 @@ const alimentos = [
     carbo: 0.4,
   },
   {
+    nome: "Frango cru",
+    unidade: "g",
+    kcal: 119,
+    proteina: 21.5,
+    gordura: 1.7,
+    carbo: 0,
+  },
+  {
     nome: "Frango grelhado",
     unidade: "g",
     kcal: 156,

@@ -49,6 +49,14 @@ const alimentos = [
     carbo: 23,
   },
   {
+    nome: "Manga",
+    unidade: "g",
+    kcal: 65,
+    proteina: 1.2,
+    gordura: 0.4,
+    carbo: 17,
+  },
+  {
     nome: "Ovo inteiro cozido (1 un)",
     unidade: "un",
     kcal: 72,

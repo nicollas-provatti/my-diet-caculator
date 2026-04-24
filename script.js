@@ -9,6 +9,14 @@ const alimentos = [
     carbo: 12,
   },
   {
+    nome: "Pão seda",
+    unidade: "g",
+    kcal: 276,
+    proteina: 9.4,
+    gordura: 0,
+    carbo: 58,
+  },
+  {
     nome: "Manteiga",
     unidade: "g",
     kcal: 747,
